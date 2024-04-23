@@ -1,0 +1,24 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Abacus Simulator</title>
+    <script src='./abacus.js'></script>
+    <script type="text/javascript">
+      function run() {
+        var abacus = new Abacus("myAbacus", 0);
+        abacus.init();
+      }
+    </script>
+  </head>
+  <body onload="run();">
+    <h1>Japanese Abacus Simulator (Soroban)</h1>
+<button onclick="window.location.reload();">Reset Abacus</button>
+    <div id="myAbacus"> </div>
+
+   
+    <p> This website is part of the lecture <a href=" ">Riashat Academy</a>.  </p>
+    <p> Keywords: abacus simulator, abacus simulation, virtual abacus, online abacus, interactive abacus, soroban, html5, javascript</p>
+  </body>
+</html>
